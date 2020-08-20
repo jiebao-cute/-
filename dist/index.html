@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>廖玉洁的简历</title>
+</head>
+<body>
+    
+    <style>/*body{
+            border: 1px solid red;
+        }页面不完整，所以需要去掉上边距和下边距*/
+        *{margin: 0;padding: 0;}
+        *{box-sizing: border-box;}
+        *::after{box-sizing: border-box;}
+        *::before{box-sizing: border-box;}
+        #demo{
+            word-break:break-all;/*代码超出div长度自动换行，去掉横向滚动条*/
+        }
+
+        #div1{
+          position:fixed;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 50px;
+        }
+        #div1::before{
+        position:absolute;
+        content: '';/*不可删除contenr，否则就会没有span*/
+        display: block;
+       
+}
+        #div1::after{
+        content: '';
+        display: block;
+        position:absolute;
+}
+        /*@media作用于手机*/    
+        @media (max-width:500px){
+           #html {
+               height: 50vh;
+               overflow: auto;/*代码只出现在html这个div里面*/
+           }
+           #div1Wrapper {
+               height:50vh;
+           }
+           #div1 {
+            position: relative;
+               bottom:20;
+               right:0;
+           }
+        }</style>
+    <style id="style"></style>
+    <div id="html"></div>
+    <div id="div1Wrapper">
+    <div id="div1"></div>
+    </div>
+    <script src="/main.1f19ae8e.js"></script>
+</body>
+</html>
