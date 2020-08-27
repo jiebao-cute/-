@@ -2,7 +2,7 @@ let html = document.querySelector('#html');
 let style = document.querySelector("#style");
 //文字加注释，不然会影响下面的代码
 let string = `
-/*hello，我叫廖玉洁
+/*hello
 -接下来我演示下我的前端功底
 -首先我要准备一个div
 */
